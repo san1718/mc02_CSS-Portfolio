@@ -10,5 +10,5 @@ This is the first time creating a portfolio website.
 2. CSS
 
 ## Screenshots
-<img width="1512" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Navigation.png">
-<img width="1512" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Sections.png">
+<img width="1000" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Navigation.png">
+<img width="1000" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Sections.png">
