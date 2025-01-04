@@ -6,6 +6,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -18,9 +22,33 @@ header {
     padding: 2%;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 li {
-    display: inline;
+    display: flex;
     text-align: right;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Image link */
+.image-link img {
+    width: 250px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+.image-link a {
+    display: inline-block;
+}
+.image-link img:hover {
+    transform: scale(1.1);
 }
 
 /* Positioning and subtitles for the image */
@@ -51,6 +79,11 @@ h1 {
     color: white;
     font-size: 200%;
     padding: 20px 0;
+    text-align: center;
+    padding: 5px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-left-style: solid;
 }
 
 h2 {
@@ -63,6 +96,8 @@ h2 {
 .sectionbox {
     display: flex;
     align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .containerb {
@@ -75,8 +110,9 @@ h2 {
     padding: 20px;
 }
 
-/* Aside side bar */
+/* The other side (bar) */
 .sidebar {
+    width: 25%;
     flex: 0 0 auto;
     padding: 20px;
     text-align: center;
@@ -95,34 +131,6 @@ h2 {
     margin-right: 20px;
 }
 
-.mainsec{
-    flex-grow: 1;
-    padding: 20px;
-    height: auto;
-}
-
-/* First section that shows bigger */
-.firstsec {
-    height: auto;
-}
-
-/* Rest of the sections */
-.secondsec,
-.thirdsec,
-.fourthsec {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px;
-    box-sizing: border-box;
-    margin: 10px;
-}
-
-.contactme {
-    
-}
-
 /* Button config */
 .button-s {
     display: inline-block;
@@ -131,6 +139,7 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border-bottom-style: solid;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 .button-s:hover {
