@@ -100,16 +100,6 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.containerb {
-    display: flex;
-    height: 100vh;
-}
-
-.containerh {
-    flex-grow: 1;
-    padding: 20px;
-}
-
 /* The other side (bar) */
 .sidebar {
     width: 25%;
