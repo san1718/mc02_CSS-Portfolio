@@ -9,6 +9,11 @@ This is the first time creating a portfolio website.
 1. HTML
 2. CSS
 
+## Links
+[Home](https://github.com/san1718/mc02_CSS-Portfolio)
+<br />
+[Deployed](https://san1718.github.io/mc02_CSS-Portfolio/)
+
 ## Screenshots
 <img width="500" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Navigation.png">
 <img width="500" alt="Homepage" src="https://github.com/san1718/mc02_CSS/blob/main/assets/images/Sections.png">
