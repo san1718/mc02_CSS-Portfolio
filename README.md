@@ -9,7 +9,7 @@
 
 ## Overview
 This activity will show the creation of a page using HTML and CSS.
-There will be sections different sections such as 'About Me', 'Work', 'Contact', and Resume.
+There will be different sections such as 'About Me', 'Work', 'Contact', and Resume.
 This is the first time creating a portfolio website.
 
 ## Technologies Used
